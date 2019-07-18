@@ -354,7 +354,9 @@ class Topnav extends React.Component {
             <Link className="Topnav__brand" to="/">
               {/* <i className="iconfont icon-busy Topnav__brand-icon" /> */}
               {/* busy */}
-              <span><img src="/images/logo.gif" style={{ height: 39 }} alt="Steem Service Logo" /></span>
+              <span>
+                <img src="/images/logo.gif" style={{ height: 39 }} alt="Steem Service Logo" />
+              </span>
             </Link>
             {/* <span className="Topnav__version">beta</span> */}
           </div>
