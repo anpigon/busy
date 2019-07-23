@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-process.env.NODE_ENV = 'development';
+// eslint-disable-next-line import/newline-after-import
+require('dotenv').config();
+process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 const webpack = require('webpack');
 const DevServer = require('webpack-dev-server');
